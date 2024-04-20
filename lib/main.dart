@@ -17,7 +17,7 @@ class XylophoneApp extends StatelessWidget {
         body: SafeArea(
           child: Column(
             children: [
-              buildKey(color: Colors.red, audioFileIndex: 1),
+              buildKey(color: Colors.redAccent, audioFileIndex: 1),
               buildKey(color: Colors.orange, audioFileIndex: 2),
               buildKey(color: Colors.yellow, audioFileIndex: 3),
               buildKey(color: Colors.green, audioFileIndex: 4),
